@@ -11,7 +11,7 @@ import {
 import {TuiteService} from './tuite.service';
 @Controller('tuite')
 export class TuiteController {
-  constructor(private readonly TuiteService: TuiteService) {}
+  constructor(private  readonly TuiteService: TuiteService) {}
   //get
   @Get()
   get(@Query() filterQuery): string {
